@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*nav bar*/
+#nav-bar{
+    
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+    
+}
+.navbar-nav li{
+    padding: 0 10px;
+    
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    
+ }
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+    
+}
+.navbar {
+    background: #fff;
+}
+
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*slider*/
+#slider{
+    width: 100%;
+
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5{
+    color: red;
+    font-size: 44px;
+}
+/*about*/
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content{
+    padding-top: 20px;
+}
+
+/*mission*/
+
+#mission{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(C:\Users\Faizal\Desktop\Crossroads\mission.png);
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    
+}
+
+#mission h1{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+    
+}
+#mission h1::after{
+   content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.mission{
+    margin-top: 40px;
+}
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50px;    
+}
+#mission p{
+ font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.mission .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.
+}
+/*youtube*/
+
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 265%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.promo img{
+    height: 350px;
+}
