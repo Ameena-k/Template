@@ -10,12 +10,12 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <section id="nav-bar">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#"><img src="logo.png"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,22 +28,20 @@
                             <a class="nav-link" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
+                            <a class="nav-link" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">VIDEOS</a>
+                            <a class="nav-link" href="#mission">VIDEOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">COMMUNITY</a>
+                            <a class="nav-link" href="#testimonials">COMMUNITY</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">PHOTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">OUR TEAM</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT</a>
+                            <a class="nav-link" href="#contact">CONTACT</a>
                         </li>
                     </ul>
 
@@ -124,7 +122,7 @@
         <!--Mission-->
         <section id="mission">
             <div class="cotainer">
-                <h1>What we teach!</h1>
+                <h1>What We Brought To You Untill Now!</h1>
                 <div class="row mission">
                     <div class="col-md-3 text-center">
                         <div class="icon">
@@ -303,56 +301,81 @@
                 <h1>Get In Touch</h1>
                 <div class="row">
                     <div class="col-md-6">
-                        <form class="contact-form">
+                        <form class="contact-form needs-validation" novalidate>
+
+   
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="You Name">
+                                <label for="validationCustom012"></label>
+                                <input type="text" class="form-control" id="validationCustom012" placeholder="You Name" value=""
+                                       required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+
                             </div>
 
                             <div class="form-group">
-                                <input type="number" class="form-control" placeholder="Phone number">
+                                <label for="validationCustom012"></label>
+                                <input type="number" class="form-control"id="validationCustom012"  placeholder="Phone number" value="" required>
+                                <div class="valid-feedback">
+                                    good!
+                                </div>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Email id">
+                                <label for="validationCustom012"></label>
+                                <input type="email" class="form-control" id="validationCustom012"  placeholder="Email id" value="" required>
+                                <div class="valid-feedback">
+                                    good!
+                                </div>
                             </div>
 
                             <div class="form-group">
-                                <textarea class="form-control" row="4" placeholder="Message">
+                                <label for="validationCustom012"></label>
+                                <textarea class="form-control" row="4"  id="validationCustom012"  placeholder="Message" value="" required>
+
                                 </textarea>
+                                <div class="valid-feedback">
+                                </div>
                             </div>
+
                             <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
                         </form>
                     </div>
+
                     <div class="col-md-6 contact-info">
                         <div class="follow"> <b>Address:</b><i class="fa fa-map-marker"></i>Cyber Parks,Calicut</div>
-                   
-                    
+
+
                         <div class="follow">
                             <b>Phone:</b><i class="fa fa-phone"></i>+91 7264982640
                         </div>
-                    
 
-                            <div class="follow">
-                                <b>Email:</b><i class="fa fa-envolope-o">abc@gmail.com</i>
-                            </div>
-                            
+
+                        <div class="follow">
+                            <b>Email:</b><i class="fa fa-envolope-o">abc@gmail.com</i>
+                        </div>
+
                         <div class="follow"><label><b>Get Social</b></label>
-                               <a href="#"><i class="fa fa-facebook"></i></a>
-                               <a href="#"><i class="fa fa-youtube-play"></i></a>
-                               <a href="#"><i class="fa fa-twitter"></i></a>
-                              
-                            </div>
-                            
-                    </div>
-                    </div>
-                </div>
-                </section>
-                
-<!--           footer     -->
-            <sectio id="footer">
-                <div class="container" >
-                    <p>Made with <i class="fa fa-heart-o"></i> </p>
-                </div>
-            </sectio>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
 
-            </body> 
-        </html>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--           footer     -->
+        <section id="footer">
+            <div class="container" >
+                <p>Made with <i class="fa fa-heart-o"></i> </p>
+            </div>
+        </section>
+<!--footer end-->
+<!--   <script src="js/smooth-scroll.js"></script>-->
+   <script>
+	var scroll = new SmoothScroll('a[href="#"]');
+</script>
+    </body> 
+</html>
