@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+
+
 /*nav bar*/
 #nav-bar{
     
@@ -19,6 +22,8 @@
     padding: 0 10px;
     
 }
+
+
 .navbar-nav li a{
     float: right;
     text-align: left;
@@ -29,18 +34,22 @@
     
 }
 .navbar {
-    background: #fff;
+    background: black;
 }
 
 .navbar-toggler{
     border: none!important;
 }
 .nav-link{
-    color: #555!important;
+    color: #efefef!important;
     font-weight: 600;
     font-size: 16px;
 }
 /*slider*/
+.back{
+    height: 450px;
+    width: 1500px;
+}
 #slider{
     width: 100%;
 
@@ -51,7 +60,7 @@
     bottom: initial!important;
 }
 .carousel-caption h5{
-    color: red;
+    color: #efefef;
     font-size: 44px;
 }
 /*about*/
@@ -129,7 +138,7 @@
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 265%;
+  top: 275%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
